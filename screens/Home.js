@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Text, View, FlatList, SafeAreaView } from 'react-native';
+import { View, FlatList, SafeAreaView } from 'react-native';
 
 import { COLORS, NFTData } from '../constants';
 import { NFTCard, HomeHeader, FocusedStatusBar } from '../components';

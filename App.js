@@ -29,7 +29,7 @@ export default function App() {
     setFontsLoaded(loaded);
   }, [loaded])
   
-  if (!fontsLoaded) return null;
+  if (!fontsLoaded || !!error) return null;
 
   return (
     <NavigationContainer theme={theme}>
